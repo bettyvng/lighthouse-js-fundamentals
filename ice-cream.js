@@ -13,3 +13,5 @@ console.log(iceCreamFlavours[5]);
 
 //total # of flavours//
 console.log(iceCreamFlavours.length);
+
+
