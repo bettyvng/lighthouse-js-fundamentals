@@ -7,13 +7,12 @@ let calculateRectangleArea = (length, width) => {
 
 let calculateTriangleArea = (base, height) => {
   let result = (base * height) / 2;
-   if (result > 0) {
+  if (result > 0) {
     return result
   }
 }
 
 let calculateCircleArea = radius => {
-
   let result = Math.PI * radius * radius;
   if (radius > 0) {
     return result
